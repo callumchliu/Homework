@@ -1,6 +1,6 @@
 package HW2;
 
-public class pyramid2 {
+public class Pyramid2 {
 	public static void main(String[] args) {
 		/*
 		 * 請設計一隻Java程式，輸出結果為以下： A 

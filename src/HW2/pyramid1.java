@@ -12,7 +12,7 @@ package HW2;
 		1 2 
 		1         */
 
-public class pyramid1 {
+public class Pyramid1 {
 	public static void main(String[] args) {
 
 		for (int i = 10; i >= 1; i = i - 1) {
