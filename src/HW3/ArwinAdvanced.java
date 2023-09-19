@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ArwinAdvanced {
 	public static void main(String[] args) {
+//		Without Repetition????? Check in array???
 //		Scanner sc = new Scanner(System.in);
 //		System.out.println("阿文請輸入你討厭的數字：");
 //
