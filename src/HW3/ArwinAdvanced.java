@@ -7,7 +7,7 @@ public class ArwinAdvanced {
 //		Without Repetition????? Check in array???
 //		Scanner sc = new Scanner(System.in);
 //		System.out.println("阿文請輸入你討厭的數字：");
-//
+
 //		int a = sc.nextInt();
 //		int count6 = 0;
 

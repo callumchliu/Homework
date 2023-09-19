@@ -8,7 +8,7 @@ public class GuessNumber {
 		Scanner sc = new Scanner(System.in);
 //		System.out.println("開始猜數字囉");
 //		int n = sc.nextInt();
-////		System.out.println(i);
+//		System.out.println(i);
 //		if(i==n) {
 //			System.out.println("答對了！答案就是"+ i);
 //		}
