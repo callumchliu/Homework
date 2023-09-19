@@ -41,7 +41,7 @@ public class CountDays {
 
 			int totalday = 0;
 			if (month > 12) {
-
+				System.out.println("輸入錯誤，請重新輸入");
 			}
 			if (index == 0) {
 				totalday = day;
