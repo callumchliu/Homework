@@ -9,10 +9,10 @@ public class CountDays {
 		int year = sc.nextInt();
 		int month = sc.nextInt();
 		int day = sc.nextInt();
-		CountDays CD = new CountDays();
+//		CountDays CD = new CountDays();
 //		CD.testing(month, day);
 
-		CD.daycount(year, month, day);
+		daycount(year, month, day);
 		sc.close();
 	}
 
@@ -26,7 +26,7 @@ public class CountDays {
 //		
 //	}
 //非閏年二月的問題待解決
-	public void daycount(int year, int month, int day) {
+	public static void daycount(int year, int month, int day) {
 		int[] dayinMonth = { 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 		//// 4的倍數但不是100的倍數，可是400的倍數是
 		int index = month - 1;
