@@ -11,16 +11,24 @@ public class MaxElement {
 	
 	
 	
-	
+//	Can also use for-each loop: for (type variableName : arrayName)
+//	Two-Dim Array: https://stackoverflow.com/questions/29588837/what-does-forint-i-x-do
 	public int maxElement(int x[][]) {
 		int max=0;
-		for (int i=0; i<x.length; i++) {
-			for (int j=0; j<x[i].length;j++) {
-				if (max<x[i][j]) {
-					max=x[i][j];
+		for (int []i : x) {
+			for (int j: i) {
+				if (max<j) {
+					max=j;
 				}
 			}
 		}
+//		for (int i=0; i<x.length; i++) {
+//			for (int j=0; j<x[i].length;j++) {
+//				if (max<x[i][j]) {
+//					max=x[i][j];
+//				}
+//			}
+//		}
 		return max;
 	}
 	
