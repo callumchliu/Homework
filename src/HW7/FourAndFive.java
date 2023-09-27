@@ -23,12 +23,12 @@ public class FourAndFive {
 		// 輸出
 		FileOutputStream fos =new FileOutputStream(file);
 		ObjectOutputStream oos =new ObjectOutputStream(fos);
-		for (int i = 0; i < a.length; i++) {
-			oos.writeObject(a[i]);
-		}
-//		for (Animal a1: a) {
-//			oos.writeObject(a);
+//		for (int i = 0; i < a.length; i++) {
+//			oos.writeObject(a[i]);
 //		}
+		for (Animal a1: a) {
+			oos.writeObject(a1);
+		}
 		
 		oos.close();
 		fos.close();
@@ -36,6 +36,7 @@ public class FourAndFive {
 //		讀取Object.ser物件，並執行speak()方法
 		FileInputStream fis =new FileInputStream(file);
 		ObjectInputStream ois =new ObjectInputStream(fis);
+				
 		try {
 			while (true) {
 				((Animal) ois.readObject()).speak();
