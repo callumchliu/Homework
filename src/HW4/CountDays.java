@@ -2,6 +2,8 @@ package HW4;
 
 import java.util.Scanner;
 
+//請設計由鍵盤輸入三個整數，分別代表西元yyyy年，mm月，dd日，執行後會顯示是該年的第幾天
+
 public class CountDays {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

@@ -1,5 +1,8 @@
 package HW4;
 
+//請用程式計算出這陣列裡面共有多少個母音(a, e, i, o, u) 
+
+
 public class Vowels {
 	public static void main(String[] args) {
 		String[] planets = { "mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune" };

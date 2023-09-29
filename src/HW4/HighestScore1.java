@@ -1,5 +1,9 @@
 package HW4;
 import java.util.Arrays;
+
+// 班上有8位同學，他們進行了6次考試結果如下：請算出每位同學考最高分的次數
+
+
 public class HighestScore1 {
 	public static void main(String[] args) {
 		int[][] scores = { {10, 35, 40, 100, 90, 85, 75, 70}, {37, 75, 77, 89, 64, 75, 70, 95},

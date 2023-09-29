@@ -10,16 +10,13 @@ public class CalTest {
 			int x =sc.nextInt();
 			System.out.println("請輸入y的值：");
 			int y=sc.nextInt();
-//			if (y<0) {
-//				System.out.println("次方為負值，結果不為整數");
-//			}else {
+
 				System.out.println(x+"的"+y+"次方為"+Calculator.powerXY(x,y));
-//				
-//			}
+
 			
 		}catch(CalException e){
 			e.printStackTrace();
-		}catch(InputMismatchException ie){
+		}catch(InputMismatchException ime){
 			System.out.println("輸入格式不正確");
 			
 		}
