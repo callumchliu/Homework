@@ -38,7 +38,13 @@ class Train implements Comparable <Train> {
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(dest, number, price, start, type);
+		final int prime=31;
+		int result=17;
+		result=(int) (result*prime+number+price);
+		result=result*prime+dest.hashCode();
+		result=prime*result+start.hashCode();
+		result=prime*result+type.hashCode();
+		return result;
 	}
 
 	@Override
